@@ -30,6 +30,9 @@ A temporal machine-learning project that demonstrates how an initially promising
 
 **Final status:** Experiment 1 rejected | Experiment 2 promising proof of concept | No post-test tuning
 
+## Project Workflow
+<img width="1774" height="887" alt="pdM_visual" src="https://github.com/user-attachments/assets/8d05f758-4648-4cff-a44c-c135f9cbf2d1" />
+
 
 
 ## Project Overview
