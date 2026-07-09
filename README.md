@@ -35,6 +35,7 @@ A temporal machine-learning project that demonstrates how an initially promising
 
 
 
+
 ## Project Overview
 
 Predictive-maintenance projects are often presented as a straightforward sequence:
