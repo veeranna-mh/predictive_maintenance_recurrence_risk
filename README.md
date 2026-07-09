@@ -5,6 +5,32 @@
 A temporal machine-learning project that demonstrates how an initially promising predictive-maintenance formulation failed on future data, how the event-generation process was investigated, and how the prediction problem was reformulated into a simpler and more temporally generalizable recurrence-risk model.
 
 ---
+## Results at a Glance
+
+| Aspect                | Experiment 1                    | Experiment 2                                  |
+| --------------------- | ------------------------------- | --------------------------------------------- |
+| Prediction problem    | Static pre-event classification | Imminent-event recurrence-risk classification |
+| Analytical unit       | Sensor window                   | Eligible positive-event onset                 |
+| Final model           | 30-feature XGBoost              | One-feature logistic regression               |
+| Test set              | 36 windows                      | 23 events                                     |
+| Test PR-AUC           | 0.6423                          | **0.8292**                                    |
+| Test ROC-AUC          | 0.4415                          | **0.7615**                                    |
+| Test Recall           | 0.4348                          | **0.6923**                                    |
+| Test F1-score         | 0.5000                          | **0.7200**                                    |
+| Future generalization | Failed                          | Promising                                     |
+| Final status          | Rejected                        | Proof of concept                              |
+
+### Core Outcome
+
+> **The original static pre-event model failed on future data. Investigation of the event process revealed recurrence and burst structure, leading to a reformulated prediction problem. The resulting one-feature logistic regression model achieved a locked future test PR-AUC of 0.8292 and ROC-AUC of 0.7615, while remaining explicitly classified as a proof of concept rather than a production-ready system.**
+
+### Project Journey
+
+> **Static pre-event classification → future test failure → temporal investigation → recurrence and burst discovery → target reformulation → simpler model → promising future discrimination**
+
+**Final status:** Experiment 1 rejected | Experiment 2 promising proof of concept | No post-test tuning
+
+
 
 ## Project Overview
 
