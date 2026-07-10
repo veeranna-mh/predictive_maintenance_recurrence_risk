@@ -591,25 +591,6 @@ Before production consideration, the complete system would require:
 
 ---
 
-## Repository Structure
-
-```text
-predictive-maintenance-recurrence-risk/
-│
-├── README.md
-├── predictive_maintenance_recurrence_risk.ipynb
-├── requirements.txt
-├── .gitignore
-├── .gitattributes
-│
-├── data/
-│   └── README.md
-│
-└── images/
-```
-
----
-
 ## Technologies Used
 
 * Python
