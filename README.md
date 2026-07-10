@@ -620,7 +620,6 @@ predictive-maintenance-recurrence-risk/
 * XGBoost
 * SciPy
 * Matplotlib
-* Seaborn
 
 Key modelling and analytical techniques include:
 
@@ -638,27 +637,6 @@ Key modelling and analytical techniques include:
 * temporal stability investigation;
 * bootstrap uncertainty analysis;
 * and probability interpretation.
-
----
-
-## How to Run
-
-1. Clone the repository.
-2. Create and activate a Python environment.
-3. Install the required dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-4. Follow the dataset instructions in `data/README.md`.
-5. Open:
-
-```text
-predictive_maintenance_recurrence_risk.ipynb
-```
-
-6. Restart the kernel and run all cells from top to bottom.
 
 ---
 
